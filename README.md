@@ -19,14 +19,14 @@ The filters are applied in this order:
 # 1. Sharpening Filter
 Enhances image details using a high-pass kernel:
 
-0   -0.5   0
+<pre> ```0   -0.5   0
 -0.5  3   -0.5
-0   -0.5   0
+0   -0.5   0 ``` </pre>
 
 # 2. Edge Detection (Sobel Operator)
 Applies Sobel kernels in x and y directions:
 
-kx = 
+<pre> ```kx = 
 -1  0  1
 -2  0  1
 -1  0  1
@@ -34,7 +34,7 @@ kx =
 ky =
 -1 -2 -1
  0  0  0
- 1  2  1
+ 1  2  1 ``` </pre>
 
 where the gradient magnitude is computed as: pixel = sqrt(magx^2 + magy^2)
 
