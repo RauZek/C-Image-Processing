@@ -21,7 +21,7 @@ Enhances image details using a high-pass kernel:
 
 <pre> 0   -0.5   0
 -0.5  3   -0.5
-0   -0.5         0 </pre>
+0   -0.5    0 </pre>
 
 # 2. Edge Detection (Sobel Operator)
 Applies Sobel kernels in x and y directions:
