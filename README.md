@@ -7,12 +7,12 @@ It demonstrates convolution-based filtering, edge detection, and median filterin
 - Only one file containing the main() function is contained in this directory.
 - No extra .c files outside of the workplace are needed.
 
-with getopt the following arguments are parsed:
--i : Path to input file;
+With getopt the following arguments are parsed:
+<pre> -i : Path to input file;
 -o : Path to output file;
 -w : Image width (in pixels);
 -s : Stride (bytes per row in memory);
--h : Image height (in pixels).
+-h : Image height (in pixels). </pre>
 
 The filters are applied in this order:
 
