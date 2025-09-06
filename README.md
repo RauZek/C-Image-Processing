@@ -1,13 +1,13 @@
 # C Image Processing
 
-This project implements basic image processing filters in **C (C99)** for grayscale images.  
-It demonstrates convolution-based filtering, edge detection, and median filtering using **command-line arguments** and `getopt()` for input parsing.
+This project implements basic image processing filters in C (C99) for grayscale images.  
+It demonstrates convolution-based filtering, edge detection, and median filtering using command-line arguments and getopt() for input parsing.
 
-- All implementation is inside `filters/`.
-- Only one file containing the `main()` function is contained in this directory.
-- No extra `.c` files outside of the workplace are needed.
+- All implementation is inside filters/.
+- Only one file containing the main() function is contained in this directory.
+- No extra .c files outside of the workplace are needed.
 
-with `getopt` the following arguments are parsed:
+with getopt the following arguments are parsed:
 -i : Path to input file;
 -o : Path to output file;
 -w : Image width (in pixels);
